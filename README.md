@@ -18,6 +18,13 @@ Agrega esta dependencia a tu archivo `Cargo.toml`:
 budoux_rust_wrapper = "0.1.0"
 ```
 
+O directamente desde el repositorio Git:
+
+```toml
+[dependencies]
+budoux_rust_wrapper = { git = "https://github.com/tu-usuario/budoux_rust_wrapper", branch = "main" }
+```
+
 ## Uso
 
 ### Como biblioteca

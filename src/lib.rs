@@ -76,7 +76,7 @@ pub struct Model {
 
 /// The Japanese model data embedded in the binary
 static JAPANESE_MODEL: Lazy<Model> = Lazy::new(|| {
-    let model_json = include_str!("../budoux (from repo branch main)/budoux/models/ja.json");
+    let model_json = include_str!("models/ja.json");
     serde_json::from_str(model_json).expect("Failed to parse Japanese model")
 });
 
