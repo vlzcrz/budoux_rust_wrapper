@@ -5,7 +5,11 @@ edition = "2021"
 description = "Rust wrapper for BudouX Japanese text segmentation"
 license = "Apache-2.0"
 repository = "https://github.com/google/budoux"
+homepage = "https://github.com/google/budoux"
+documentation = "https://docs.rs/budoux_rust_wrapper"
 readme = "README.md"
+keywords = ["japanese", "text", "segmentation", "nlp", "budoux"]
+categories = ["text-processing", "internationalization"]
 
 [lib]
 path = "src/lib.rs"
